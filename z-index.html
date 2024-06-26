@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        .a{
+            position: relative;
+            z-index: 1;
+            height: 500px;
+            margin: 30px;
+        }
+        .b{
+            position: absolute;
+            z-index: 2;
+            height: 200px;
+            width: 20%;
+            right: 350px;
+            top: 60px;
+        }
+        .c{
+            position: absolute;
+            z-index: 4;
+            width: 20%;
+            left: 350px;
+            top: 300px;
+            height: 200px;
+        }
+        .d{
+            position: absolute;
+            z-index: 3;
+            height: 200px;
+            width: 260px;
+            left: 500px;
+            top: 180px;
+        }
+        .e{
+            position: absolute;
+            z-index: 5;
+            height: 200px;
+            width: 20%;
+            right: 330px;
+            top: 320px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; background-color: black; color: white;">Z-Index</h1>
+
+    <div class="container">
+        <img class="a" src="https://cdn.mos.cms.futurecdn.net/gvQ9NhQP8wbbM32jXy4V3j.jpg">
+        <img class="b" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFLfQpvMYNDpj5rbrkgY7PFI1n5pmacpQGw&s">
+        <img class="c" src="https://cdn.pixabay.com/photo/2020/02/15/12/47/camera-4850895_1280.jpg">
+        <img class="d" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEup6OXmAlxYGgIeWhSOcHo2rIRzsfFVCIIQ&s">
+        <img class="e" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXpDkabTtOSEizo3a6eBFHSBbFU0Cf3-Kpu6xDatpHaf5GvLBAVFebHKf4YHIEDxKxhceh7B-3d7VR35yu4KjNF-lhi6tPDQbOlLzEDAeyDVb7cvOQL7kDm14-E7_07syZLE63/s1600/P1010049.jpg">
+    </div>
+
+</body>
+</html>
+
